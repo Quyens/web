@@ -1,0 +1,59 @@
+[18-Jul-2024 01:57:41 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 2
+[18-Jul-2024 01:57:41 UTC] PHP Warning:  include(https://dichvureat.net/api/Facebook/autoload.php): failed to open stream: no suitable wrapper could be found in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 2
+[18-Jul-2024 01:57:41 UTC] PHP Warning:  include(): Failed opening 'https://dichvureat.net/api/Facebook/autoload.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 2
+[18-Jul-2024 01:57:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Facebook\Facebook' not found in /home/cyberni1/dichvureat.net/resources/views/client/fbconfig.php:3
+Stack trace:
+#0 /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php(3): include()
+#1 {main}
+  thrown in /home/cyberni1/dichvureat.net/resources/views/client/fbconfig.php on line 3
+[18-Jul-2024 01:57:44 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 2
+[18-Jul-2024 01:57:44 UTC] PHP Warning:  include(https://dichvureat.net/api/Facebook/autoload.php): failed to open stream: no suitable wrapper could be found in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 2
+[18-Jul-2024 01:57:44 UTC] PHP Warning:  include(): Failed opening 'https://dichvureat.net/api/Facebook/autoload.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 2
+[18-Jul-2024 01:57:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Facebook\Facebook' not found in /home/cyberni1/dichvureat.net/resources/views/client/fbconfig.php:3
+Stack trace:
+#0 /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php(3): include()
+#1 {main}
+  thrown in /home/cyberni1/dichvureat.net/resources/views/client/fbconfig.php on line 3
+[18-Jul-2024 02:22:24 UTC] PHP Warning:  require_once(/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php): failed to open stream: No such file or directory in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 02:22:24 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 02:22:25 UTC] PHP Warning:  require_once(/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php): failed to open stream: No such file or directory in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 02:22:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 02:22:28 UTC] PHP Warning:  require_once(/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php): failed to open stream: No such file or directory in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 02:22:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 02:22:38 UTC] PHP Warning:  require_once(/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php): failed to open stream: No such file or directory in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 02:22:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cyberni1/dichvureat.net/resources/views/client/../../core/is_user.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cyberni1/dichvureat.net/resources/views/client/loginfb.php on line 13
+[18-Jul-2024 09:23:05 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:24:12 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:24:24 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:32:32 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:34:23 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:35:52 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:35:52 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:38:03 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 09:38:55 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 11:38:11 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 11:38:29 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 12:10:14 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 12:24:38 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 12:24:47 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 15:51:04 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[18-Jul-2024 18:30:30 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 06:04:18 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 06:15:18 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 06:15:55 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 08:42:58 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 09:43:38 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 09:44:26 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 18:21:34 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[19-Jul-2024 18:29:21 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[20-Jul-2024 10:05:53 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[20-Jul-2024 11:02:35 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[20-Jul-2024 11:09:04 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[20-Jul-2024 11:54:53 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[20-Jul-2024 12:12:23 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[21-Jul-2024 11:40:18 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[21-Jul-2024 21:11:08 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[21-Jul-2024 21:46:31 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[22-Jul-2024 12:11:31 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[23-Jul-2024 08:14:18 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
+[23-Jul-2024 10:37:04 Asia/Ho_Chi_Minh] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/cyberni1/dichvureat.net/api/Facebook/PseudoRandomString/McryptPseudoRandomStringGenerator.php on line 57
